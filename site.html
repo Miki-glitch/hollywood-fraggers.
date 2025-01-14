@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollywood Fraggers - CS 1.6 Server</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #87CEEB;
+            color: #000;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #1E90FF;
+            position: relative;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            color: #fff;
+            text-shadow: 2px 2px 5px #000;
+        }
+        header:before {content: "????"; position: absolute; top: 10px; left: 10px; font-size: 2em;}
+        header:after {content: "????"; position: absolute; top: 10px; right: 10px; font-size: 2em;}
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content h2 {
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1E90FF;
+            color: #fff;
+        }
+        .language-switcher {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .language-switcher button {
+            margin: 0 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #1E90FF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .language-switcher button:hover {
+            background-color: #4682B4;
+        }
+    </style>
+    <script>
+        function changeLanguage(lang) {
+            alert('Language switched to: ' + lang); // Placeholder for language switching functionality
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <img src="/mnt/data/A_professional_gaming_banner_for_a_Counter-Strike_.png" alt="Hollywood Fraggers Banner">
+        <h1>Hollywood Fraggers</h1>
+    </header>
+    <div class="language-switcher">
+        <button onclick="changeLanguage('English')">English</button>
+        <button onclick="changeLanguage('Macedonian')">Macedonian</button>
+        <button onclick="changeLanguage('Spanish')">Spanish</button>
+        <button onclick="changeLanguage('French')">French</button>
+    </div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#server">Server Details</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">Contact</a>
+        <a href="#community">Community</a>
+        <a href="#admins">Admins</a>
+    </nav>
+    <div class="content" id="about">
+        <h2>Welcome to Hollywood Fraggers!</h2>
+        <p>Your go-to CS 1.6 server for epic battles, custom maps, and a friendly community.</p>
+    </div>
+    <div class="content" id="server">
+        <h2>Server Details</h2>
+        <p><strong>Server IP:</strong> 192.168.1.43:27015</p>
+        <p>Enjoy custom maps, fast-paced gameplay, and exclusive features tailored for CS 1.6 enthusiasts.</p>
+    </div>
+    <div class="content" id="donate">
+        <h2>Support Us</h2>
+        <p>Keep the server running and unlock VIP perks!</p>
+        <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_150x38.png" alt="PayPal Payment" style="cursor: pointer;" onclick="window.location.href='https://www.paypal.com';">
+    </div>
+    <div class="content" id="community">
+        <h2>Join Our Community</h2>
+        <p>Connect with fellow players and stay updated:</p>
+        <a href="https://discord.gg/7TxB3kbv" class="button">Join Our Discord</a>
+    </div>
+    <div class="content" id="admins">
+        <h2>Admins</h2>
+        <p><strong>Seksi</strong></p>
+        <p><strong>L!rk</strong></p>
+    </div>
+    <div class="content" id="contact">
+        <h2>Contact Us</h2>
+        <p>For any inquiries or support, reach us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:mikijovanovski597@gmail.com">mikijovanovski597@gmail.com</a></p>
+    </div>
+    <div class="content" id="download">
+        <h2>Download CS 1.6</h2>
+        <p>Get the game and join the action:</p>
+        <a href="https://csdownload.net" class="button">Download Counter-Strike 1.6</a>
+    </div>
+    <div class="content" style="text-align: center; margin-top: 20px;">
+        <img src="/mnt/data/A_stylish_gaming_logo_for_a_Counter-Strike_1.6_ser.png" alt="Hollywood Fraggers Logo" style="width: 200px; height: auto;">
+    </div>
+    <footer>
+        <p>&copy; 2025 Hollywood Fraggers. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
